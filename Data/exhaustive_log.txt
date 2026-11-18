@@ -1,0 +1,174 @@
+== q=2 m=6: #normal=24=Phi(x^m-1)  #primitive=36  #primitive normal=18
+   independent gcd test of normality agrees on all elements: True
+   normal elements per nonzero trace over F_q: [24] (expected 24): True
+   d=(2, 3) gcd=1 lcm=6 lambda=4: admissible tuples=16 (each hit by 4 elements: True); normal admissible=6; normal elements per normal tuple=24/6=4: True
+      non-normal admissible tuples=10: max #normal elements with these traces=0; tuples still hit by primitive elements=5
+      primitive normal per normal admissible tuple: min=3 max=3 tuples with none=0; main term=2.29, |N-main|<=theta*Theta*q^(m/2)(W-1)W'=20.6: True
+== q=3 m=6: #normal=324=Phi(x^m-1)  #primitive=288  #primitive normal=144
+   independent gcd test of normality agrees on all elements: True
+   normal elements per nonzero trace over F_q: [162] (expected 162): True
+   d=(2, 3) gcd=1 lcm=6 lambda=4: admissible tuples=81 (each hit by 9 elements: True); normal admissible=36; normal elements per normal tuple=324/36=9: True
+      non-normal admissible tuples=45: max #normal elements with these traces=0; tuples still hit by primitive elements=42
+      primitive normal per normal admissible tuple: min=3 max=5 tuples with none=0; main term=3.56, |N-main|<=theta*Theta*q^(m/2)(W-1)W'=132.9: True
+== q=4 m=6: #normal=1728=Phi(x^m-1)  #primitive=1728  #primitive normal=792
+   independent gcd test of normality agrees on all elements: True
+   normal elements per nonzero trace over F_q: [576] (expected 576): True
+   d=(2, 3) gcd=1 lcm=6 lambda=4: admissible tuples=256 (each hit by 16 elements: True); normal admissible=108; normal elements per normal tuple=1728/108=16: True
+      non-normal admissible tuples=148: max #normal elements with these traces=0; tuples still hit by primitive elements=144
+      primitive normal per normal admissible tuple: min=7 max=8 tuples with none=0; main term=6.75, |N-main|<=theta*Theta*q^(m/2)(W-1)W'=1367.2: True
+== q=5 m=6: #normal=9216=Phi(x^m-1)  #primitive=4320  #primitive normal=2568
+   independent gcd test of normality agrees on all elements: True
+   normal elements per nonzero trace over F_q: [2304] (expected 2304): True
+   d=(2, 3) gcd=1 lcm=6 lambda=4: admissible tuples=625 (each hit by 25 elements: True); normal admissible=384; normal elements per normal tuple=9216/384=24: True
+      non-normal admissible tuples=241: max #normal elements with these traces=0; tuples still hit by primitive elements=236
+      primitive normal per normal admissible tuple: min=3 max=10 tuples with none=0; main term=6.64, |N-main|<=theta*Theta*q^(m/2)(W-1)W'=4892.5: True
+== q=7 m=6: #normal=46656=Phi(x^m-1)  #primitive=36288  #primitive normal=14832
+   normal elements per nonzero trace over F_q: [7776] (expected 7776): True
+   d=(2, 3) gcd=1 lcm=6 lambda=4: admissible tuples=2401 (each hit by 49 elements: True); normal admissible=1296; normal elements per normal tuple=46656/1296=36: True
+      non-normal admissible tuples=1105: max #normal elements with these traces=0; tuples still hit by primitive elements=1098
+      primitive normal per normal admissible tuple: min=8 max=17 tuples with none=0; main term=11.10, |N-main|<=theta*Theta*q^(m/2)(W-1)W'=40277.6: True
+== q=8 m=6: #normal=225792=Phi(x^m-1)  #primitive=139968  #primitive normal=120744
+   normal elements per nonzero trace over F_q: [32256] (expected 32256): True
+   d=(2, 3) gcd=1 lcm=6 lambda=4: admissible tuples=4096 (each hit by 64 elements: True); normal admissible=3528; normal elements per normal tuple=225792/3528=64: True
+      non-normal admissible tuples=568: max #normal elements with these traces=0; tuples still hit by primitive elements=560
+      primitive normal per normal admissible tuple: min=27 max=46 tuples with none=0; main term=34.17, |N-main|<=theta*Theta*q^(m/2)(W-1)W'=14128.0: True
+== q=9 m=6: #normal=419904=Phi(x^m-1)  #primitive=165888  #primitive normal=130848
+   normal elements per nonzero trace over F_q: [52488] (expected 52488): True
+   d=(2, 3) gcd=1 lcm=6 lambda=4: admissible tuples=6561 (each hit by 81 elements: True); normal admissible=5184; normal elements per normal tuple=419904/5184=81: True
+      non-normal admissible tuples=1377: max #normal elements with these traces=0; tuples still hit by primitive elements=1368
+      primitive normal per normal admissible tuple: min=18 max=33 tuples with none=0; main term=25.28, |N-main|<=theta*Theta*q^(m/2)(W-1)W'=22294.9: True
+== q=2 m=10: #normal=480=Phi(x^m-1)  #primitive=600  #primitive normal=290
+   independent gcd test of normality agrees on all elements: True
+   normal elements per nonzero trace over F_q: [480] (expected 480): True
+   d=(2, 5) gcd=1 lcm=10 lambda=6: admissible tuples=64 (each hit by 16 elements: True); normal admissible=30; normal elements per normal tuple=480/30=16: True
+      non-normal admissible tuples=34: max #normal elements with these traces=0; tuples still hit by primitive elements=32
+      primitive normal per normal admissible tuple: min=9 max=10 tuples with none=0; main term=9.38, |N-main|<=theta*Theta*q^(m/2)(W-1)W'=246.3: True
+== q=3 m=10: #normal=25600=Phi(x^m-1)  #primitive=26400  #primitive normal=11520
+   normal elements per nonzero trace over F_q: [12800] (expected 12800): True
+   d=(2, 5) gcd=1 lcm=10 lambda=6: admissible tuples=729 (each hit by 81 elements: True); normal admissible=320; normal elements per normal tuple=25600/320=80: True
+      non-normal admissible tuples=409: max #normal elements with these traces=0; tuples still hit by primitive elements=406
+      primitive normal per normal admissible tuple: min=30 max=40 tuples with none=0; main term=35.77, |N-main|<=theta*Theta*q^(m/2)(W-1)W'=5275.3: True
+== q=4 m=10: #normal=691200=Phi(x^m-1)  #primitive=480000  #primitive normal=316760
+   normal elements per nonzero trace over F_q: [230400] (expected 230400): True
+   d=(2, 5) gcd=1 lcm=10 lambda=6: admissible tuples=4096 (each hit by 256 elements: True); normal admissible=2700; normal elements per normal tuple=691200/2700=256: True
+      non-normal admissible tuples=1396: max #normal elements with these traces=0; tuples still hit by primitive elements=1392
+      primitive normal per normal admissible tuple: min=98 max=137 tuples with none=0; main term=117.19, |N-main|<=theta*Theta*q^(m/2)(W-1)W'=76629.7: True
+== q=2 m=12: #normal=1536=Phi(x^m-1)  #primitive=1728  #primitive normal=624
+   independent gcd test of normality agrees on all elements: True
+   normal elements per nonzero trace over F_q: [1536] (expected 1536): True
+   d=(2, 3) gcd=1 lcm=6 lambda=4: admissible tuples=16 (each hit by 256 elements: True); normal admissible=6; normal elements per normal tuple=1536/6=256: True
+      non-normal admissible tuples=10: max #normal elements with these traces=0; tuples still hit by primitive elements=10
+      primitive normal per normal admissible tuple: min=104 max=104 tuples with none=0; main term=108.03, |N-main|<=theta*Theta*q^(m/2)(W-1)W'=607.6: True
+      route through F_(q^L), L=6: primitive, normal over F_(q^L), traces a normal tuple: 624, of which not normal over F_q: 0; with Tr_(m/L) normal over F_q: 624, of which not normal over F_q: 0
+   d=(3, 4) gcd=1 lcm=12 lambda=6: admissible tuples=64 (each hit by 64 elements: True); normal admissible=24; normal elements per normal tuple=1536/24=64: True
+      non-normal admissible tuples=40: max #normal elements with these traces=0; tuples still hit by primitive elements=40
+      primitive normal per normal admissible tuple: min=26 max=26 tuples with none=0; main term=27.01, |N-main|<=theta*Theta*q^(m/2)(W-1)W'=607.6: True
+   d=(4, 6) gcd=2 lcm=12 lambda=8: admissible tuples=256 (each hit by 16 elements: True); normal admissible=96; normal elements per normal tuple=1536/96=16: True
+      non-normal admissible tuples=160: max #normal elements with these traces=0; tuples still hit by primitive elements=156
+      primitive normal per normal admissible tuple: min=5 max=8 tuples with none=0; main term=6.75, |N-main|<=theta*Theta*q^(m/2)(W-1)W'=607.6: True
+      base change Q=q^2=4, t=[2, 3], M=6: normal/F_q=1536, normal/F_Q=1728, both=768; F_q-normal tuples=96, F_Q-normal tuples=108, common=48; max #F_Q-normal elements on F_q-normal tuples that are not F_Q-normal=0; primitive F_Q-normal elements on common tuples=360, of which not F_q-normal=0
+== q=3 m=12: #normal=209952=Phi(x^m-1)  #primitive=165888  #primitive normal=65424
+   normal elements per nonzero trace over F_q: [104976] (expected 104976): True
+   d=(2, 3) gcd=1 lcm=6 lambda=4: admissible tuples=81 (each hit by 6561 elements: True); normal admissible=36; normal elements per normal tuple=209952/36=5832: True
+      non-normal admissible tuples=45: max #normal elements with these traces=0; tuples still hit by primitive elements=45
+      primitive normal per normal admissible tuple: min=1802 max=1832 tuples with none=0; main term=1820.45, |N-main|<=theta*Theta*q^(m/2)(W-1)W'=22294.9: True
+      route through F_(q^L), L=6: primitive, normal over F_(q^L), traces a normal tuple: 73872, of which not normal over F_q: 8448; with Tr_(m/L) normal over F_q: 73872, of which not normal over F_q: 8448
+   d=(3, 4) gcd=1 lcm=12 lambda=6: admissible tuples=729 (each hit by 729 elements: True); normal admissible=288; normal elements per normal tuple=209952/288=729: True
+      non-normal admissible tuples=441: max #normal elements with these traces=0; tuples still hit by primitive elements=441
+      primitive normal per normal admissible tuple: min=217 max=239 tuples with none=0; main term=227.56, |N-main|<=theta*Theta*q^(m/2)(W-1)W'=22294.9: True
+   d=(4, 6) gcd=2 lcm=12 lambda=8: admissible tuples=6561 (each hit by 81 elements: True); normal admissible=2592; normal elements per normal tuple=209952/2592=81: True
+      non-normal admissible tuples=3969: max #normal elements with these traces=0; tuples still hit by primitive elements=3960
+      primitive normal per normal admissible tuple: min=18 max=33 tuples with none=0; main term=25.28, |N-main|<=theta*Theta*q^(m/2)(W-1)W'=22294.9: True
+      base change Q=q^2=9, t=[2, 3], M=6: normal/F_q=209952, normal/F_Q=419904, both=209952; F_q-normal tuples=2592, F_Q-normal tuples=5184, common=2592; max #F_Q-normal elements on F_q-normal tuples that are not F_Q-normal=0; primitive F_Q-normal elements on common tuples=65424, of which not F_q-normal=0
+== q=2 m=14: #normal=6272=Phi(x^m-1)  #primitive=10584  #primitive normal=4074
+   independent gcd test of normality agrees on all elements: True
+   normal elements per nonzero trace over F_q: [6272] (expected 6272): True
+   d=(2, 7) gcd=1 lcm=14 lambda=8: admissible tuples=256 (each hit by 64 elements: True); normal admissible=98; normal elements per normal tuple=6272/98=64: True
+      non-normal admissible tuples=158: max #normal elements with these traces=0; tuples still hit by primitive elements=156
+      primitive normal per normal admissible tuple: min=41 max=42 tuples with none=0; main term=41.35, |N-main|<=theta*Theta*q^(m/2)(W-1)W'=1772.7: True
+== q=2 m=15: #normal=10125=Phi(x^m-1)  #primitive=27000  #primitive normal=8430
+   normal elements per nonzero trace over F_q: [10125] (expected 10125): True
+   d=(3, 5) gcd=1 lcm=15 lambda=7: admissible tuples=128 (each hit by 256 elements: True); normal admissible=45; normal elements per normal tuple=10125/45=225: True
+      non-normal admissible tuples=83: max #normal elements with these traces=0; tuples still hit by primitive elements=83
+      primitive normal per normal admissible tuple: min=185 max=191 tuples with none=0; main term=185.40, |N-main|<=theta*Theta*q^(m/2)(W-1)W'=10323.9: True
+== q=2 m=18: #normal=96768=Phi(x^m-1)  #primitive=139968  #primitive normal=51660
+   normal elements per nonzero trace over F_q: [96768] (expected 96768): True
+   d=(2, 3) gcd=1 lcm=6 lambda=4: admissible tuples=16 (each hit by 16384 elements: True); normal admissible=6; normal elements per normal tuple=96768/6=16128: True
+      non-normal admissible tuples=10: max #normal elements with these traces=0; tuples still hit by primitive elements=10
+      primitive normal per normal admissible tuple: min=8610 max=8610 tuples with none=0; main term=8611.35, |N-main|<=theta*Theta*q^(m/2)(W-1)W'=12109.7: True
+      route through F_(q^L), L=6: primitive, normal over F_(q^L), traces a normal tuple: 50976, of which not normal over F_q: 828; with Tr_(m/L) normal over F_q: 50976, of which not normal over F_q: 828
+   d=(2, 9) gcd=1 lcm=18 lambda=10: admissible tuples=1024 (each hit by 256 elements: True); normal admissible=378; normal elements per normal tuple=96768/378=256: True
+      non-normal admissible tuples=646: max #normal elements with these traces=0; tuples still hit by primitive elements=644
+      primitive normal per normal admissible tuple: min=134 max=143 tuples with none=0; main term=136.69, |N-main|<=theta*Theta*q^(m/2)(W-1)W'=12109.7: True
+   d=(6, 9) gcd=3 lcm=18 lambda=12: admissible tuples=4096 (each hit by 64 elements: True); normal admissible=1512; normal elements per normal tuple=96768/1512=64: True
+      non-normal admissible tuples=2584: max #normal elements with these traces=0; tuples still hit by primitive elements=2576
+      primitive normal per normal admissible tuple: min=27 max=44 tuples with none=0; main term=34.17, |N-main|<=theta*Theta*q^(m/2)(W-1)W'=12109.7: True
+      base change Q=q^3=8, t=[2, 3], M=6: normal/F_q=96768, normal/F_Q=225792, both=96768; F_q-normal tuples=1512, F_Q-normal tuples=3528, common=1512; max #F_Q-normal elements on F_q-normal tuples that are not F_Q-normal=0; primitive F_Q-normal elements on common tuples=51660, of which not F_q-normal=0
+== q=2 m=20: #normal=491520=Phi(x^m-1)  #primitive=480000  #primitive normal=225100
+   normal elements per nonzero trace over F_q: [491520] (expected 491520): True
+   d=(2, 5) gcd=1 lcm=10 lambda=6: admissible tuples=64 (each hit by 16384 elements: True); normal admissible=30; normal elements per normal tuple=491520/30=16384: True
+      non-normal admissible tuples=34: max #normal elements with these traces=0; tuples still hit by primitive elements=34
+      primitive normal per normal admissible tuple: min=7496 max=7518 tuples with none=0; main term=7500.01, |N-main|<=theta*Theta*q^(m/2)(W-1)W'=27246.1: True
+      route through F_(q^L), L=10: primitive, normal over F_(q^L), traces a normal tuple: 225100, of which not normal over F_q: 0; with Tr_(m/L) normal over F_q: 225100, of which not normal over F_q: 0
+   d=(4, 5) gcd=1 lcm=20 lambda=8: admissible tuples=256 (each hit by 4096 elements: True); normal admissible=120; normal elements per normal tuple=491520/120=4096: True
+      non-normal admissible tuples=136: max #normal elements with these traces=0; tuples still hit by primitive elements=136
+      primitive normal per normal admissible tuple: min=1858 max=1890 tuples with none=0; main term=1875.00, |N-main|<=theta*Theta*q^(m/2)(W-1)W'=27246.1: True
+   d=(4, 10) gcd=2 lcm=20 lambda=12: admissible tuples=4096 (each hit by 256 elements: True); normal admissible=1920; normal elements per normal tuple=491520/1920=256: True
+      non-normal admissible tuples=2176: max #normal elements with these traces=0; tuples still hit by primitive elements=2172
+      primitive normal per normal admissible tuple: min=102 max=135 tuples with none=0; main term=117.19, |N-main|<=theta*Theta*q^(m/2)(W-1)W'=27246.1: True
+      base change Q=q^2=4, t=[2, 5], M=10: normal/F_q=491520, normal/F_Q=691200, both=430080; F_q-normal tuples=1920, F_Q-normal tuples=2700, common=1680; max #F_Q-normal elements on F_q-normal tuples that are not F_Q-normal=0; primitive F_Q-normal elements on common tuples=196940, of which not F_q-normal=0
+== q=2 m=21: #normal=583443=Phi(x^m-1)  #primitive=1778112  #primitive normal=495159
+   normal elements per nonzero trace over F_q: [583443] (expected 583443): True
+   d=(3, 7) gcd=1 lcm=21 lambda=9: admissible tuples=512 (each hit by 4096 elements: True); normal admissible=147; normal elements per normal tuple=583443/147=3969: True
+      non-normal admissible tuples=365: max #normal elements with these traces=0; tuples still hit by primitive elements=365
+      primitive normal per normal admissible tuple: min=3353 max=3385 tuples with none=0; main term=3365.20, |N-main|<=theta*Theta*q^(m/2)(W-1)W'=153035.0: True
+== q=2 m=22: #normal=2095104=Phi(x^m-1)  #primitive=2640704  #primitive normal=1319692
+   normal elements per nonzero trace over F_q: [2095104] (expected 2095104): True
+   d=(2, 11) gcd=1 lcm=22 lambda=12: admissible tuples=4096 (each hit by 1024 elements: True); normal admissible=2046; normal elements per normal tuple=2095104/2046=1024: True
+      non-normal admissible tuples=2050: max #normal elements with these traces=0; tuples still hit by primitive elements=2048
+      primitive normal per normal admissible tuple: min=630 max=650 tuples with none=0; main term=644.70, |N-main|<=theta*Theta*q^(m/2)(W-1)W'=38644.4: True
+== q=11 m=6: #normal=1440000=Phi(x^m-1)  #primitive=373248  #primitive normal=303456
+   normal elements per nonzero trace over F_q: [144000] (expected 144000): True
+   d=(2, 3) gcd=1 lcm=6 lambda=4: admissible tuples=14641 (each hit by 121 elements: True); normal admissible=12000; normal elements per normal tuple=1440000/12000=120: True
+      non-normal admissible tuples=2641: max #normal elements with these traces=0; tuples still hit by primitive elements=2630
+      primitive normal per normal admissible tuple: min=14 max=41 tuples with none=0; main term=25.28, |N-main|<=theta*Theta*q^(m/2)(W-1)W'=229766.4: True
+== q=13 m=6: #normal=2985984=Phi(x^m-1)  #primitive=1347840  #primitive normal=834048
+   normal elements per nonzero trace over F_q: [248832] (expected 248832): True
+   d=(2, 3) gcd=1 lcm=6 lambda=4: admissible tuples=28561 (each hit by 169 elements: True); normal admissible=20736; normal elements per normal tuple=2985984/20736=144: True
+      non-normal admissible tuples=7825: max #normal elements with these traces=0; tuples still hit by primitive elements=7812
+      primitive normal per normal admissible tuple: min=26 max=55 tuples with none=0; main term=40.21, |N-main|<=theta*Theta*q^(m/2)(W-1)W'=752969.5: True
+== q=2 m=24: #normal=6291456=Phi(x^m-1)  #primitive=6635520  #primitive normal=2488320
+   normal elements per nonzero trace over F_q: [6291456] (expected 6291456): True
+   d=(2, 3) gcd=1 lcm=6 lambda=4: admissible tuples=16 (each hit by 1048576 elements: True); normal admissible=6; normal elements per normal tuple=6291456/6=1048576: True
+      non-normal admissible tuples=10: max #normal elements with these traces=0; tuples still hit by primitive elements=10
+      primitive normal per normal admissible tuple: min=414720 max=414720 tuples with none=0; main term=414720.02, |N-main|<=theta*Theta*q^(m/2)(W-1)W'=153090.0: True
+      route through F_(q^L), L=6: primitive, normal over F_(q^L), traces a normal tuple: 2488320, of which not normal over F_q: 0; with Tr_(m/L) normal over F_q: 2488320, of which not normal over F_q: 0
+   d=(3, 4) gcd=1 lcm=12 lambda=6: admissible tuples=64 (each hit by 262144 elements: True); normal admissible=24; normal elements per normal tuple=6291456/24=262144: True
+      non-normal admissible tuples=40: max #normal elements with these traces=0; tuples still hit by primitive elements=40
+      primitive normal per normal admissible tuple: min=103528 max=103832 tuples with none=0; main term=103680.01, |N-main|<=theta*Theta*q^(m/2)(W-1)W'=153090.0: True
+      route through F_(q^L), L=12: primitive, normal over F_(q^L), traces a normal tuple: 2488320, of which not normal over F_q: 0; with Tr_(m/L) normal over F_q: 2488320, of which not normal over F_q: 0
+   d=(4, 6) gcd=2 lcm=12 lambda=8: admissible tuples=256 (each hit by 65536 elements: True); normal admissible=96; normal elements per normal tuple=6291456/96=65536: True
+      non-normal admissible tuples=160: max #normal elements with these traces=0; tuples still hit by primitive elements=160
+      primitive normal per normal admissible tuple: min=25772 max=26076 tuples with none=0; main term=25920.00, |N-main|<=theta*Theta*q^(m/2)(W-1)W'=153090.0: True
+      base change Q=q^2=4, t=[2, 3], M=12: normal/F_q=6291456, normal/F_Q=7077888, both=3145728; F_q-normal tuples=96, F_Q-normal tuples=108, common=48; max #F_Q-normal elements on F_q-normal tuples that are not F_Q-normal=0; primitive F_Q-normal elements on common tuples=1246752, of which not F_q-normal=0
+      route through F_(q^L), L=12: primitive, normal over F_(q^L), traces a normal tuple: 2488320, of which not normal over F_q: 0; with Tr_(m/L) normal over F_q: 2488320, of which not normal over F_q: 0
+   d=(3, 8) gcd=1 lcm=24 lambda=10: admissible tuples=1024 (each hit by 16384 elements: True); normal admissible=384; normal elements per normal tuple=6291456/384=16384: True
+      non-normal admissible tuples=640: max #normal elements with these traces=0; tuples still hit by primitive elements=640
+      primitive normal per normal admissible tuple: min=6423 max=6534 tuples with none=0; main term=6480.00, |N-main|<=theta*Theta*q^(m/2)(W-1)W'=153090.0: True
+   d=(6, 8) gcd=2 lcm=24 lambda=12: admissible tuples=4096 (each hit by 4096 elements: True); normal admissible=1536; normal elements per normal tuple=6291456/1536=4096: True
+      non-normal admissible tuples=2560: max #normal elements with these traces=0; tuples still hit by primitive elements=2560
+      primitive normal per normal admissible tuple: min=1553 max=1667 tuples with none=0; main term=1620.00, |N-main|<=theta*Theta*q^(m/2)(W-1)W'=153090.0: True
+      base change Q=q^2=4, t=[3, 4], M=12: normal/F_q=6291456, normal/F_Q=7077888, both=3145728; F_q-normal tuples=1536, F_Q-normal tuples=1728, common=768; max #F_Q-normal elements on F_q-normal tuples that are not F_Q-normal=0; primitive F_Q-normal elements on common tuples=1246752, of which not F_q-normal=0
+== q=4 m=12: #normal=7077888=Phi(x^m-1)  #primitive=6635520  #primitive normal=2803392
+   normal elements per nonzero trace over F_q: [2359296] (expected 2359296): True
+   d=(2, 3) gcd=1 lcm=6 lambda=4: admissible tuples=256 (each hit by 65536 elements: True); normal admissible=108; normal elements per normal tuple=7077888/108=65536: True
+      non-normal admissible tuples=148: max #normal elements with these traces=0; tuples still hit by primitive elements=148
+      primitive normal per normal admissible tuple: min=25772 max=26076 tuples with none=0; main term=25920.00, |N-main|<=theta*Theta*q^(m/2)(W-1)W'=344452.5: True
+      route through F_(q^L), L=6: primitive, normal over F_(q^L), traces a normal tuple: 2803392, of which not normal over F_q: 0; with Tr_(m/L) normal over F_q: 2803392, of which not normal over F_q: 0
+   d=(3, 4) gcd=1 lcm=12 lambda=6: admissible tuples=4096 (each hit by 4096 elements: True); normal admissible=1728; normal elements per normal tuple=7077888/1728=4096: True
+      non-normal admissible tuples=2368: max #normal elements with these traces=0; tuples still hit by primitive elements=2368
+      primitive normal per normal admissible tuple: min=1555 max=1665 tuples with none=0; main term=1620.00, |N-main|<=theta*Theta*q^(m/2)(W-1)W'=344452.5: True
+   d=(4, 6) gcd=2 lcm=12 lambda=8: admissible tuples=65536 (each hit by 256 elements: True); normal admissible=27648; normal elements per normal tuple=7077888/27648=256: True
+      non-normal admissible tuples=37888: max #normal elements with these traces=0; tuples still hit by primitive elements=37872
+      primitive normal per normal admissible tuple: min=84 max=123 tuples with none=0; main term=101.25, |N-main|<=theta*Theta*q^(m/2)(W-1)W'=344452.5: True
+      base change Q=q^2=16, t=[2, 3], M=6: normal/F_q=7077888, normal/F_Q=13824000, both=7077888; F_q-normal tuples=27648, F_Q-normal tuples=54000, common=27648; max #F_Q-normal elements on F_q-normal tuples that are not F_Q-normal=0; primitive F_Q-normal elements on common tuples=2803392, of which not F_q-normal=0

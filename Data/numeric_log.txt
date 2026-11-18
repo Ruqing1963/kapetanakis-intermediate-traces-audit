@@ -1,0 +1,67 @@
+-- constants C_nu of Lemma 2.7 (product over all primes <= 2^nu)
+   log10 C_3 = 0.430047
+   log10 C_4 = 0.686791
+   log10 C_5 = 1.050881
+   log10 C_6 = 1.573664
+   log10 C_7 = 2.388554
+   log10 C_8 = 3.654622
+   log10 C_9 = 5.699392
+   log10 C_10 = 9.045285
+   log10 C_11 = 14.627831
+   log10 C_12 = 24.024201
+   log10 C_13 = 40.057990
+   log10 C_14 = 67.707347
+   C_11 = 4.24455e+14 (paper 4.2445e14); C_12 = 1.05731e+24 (paper 1.0573e24)
+   log10 C_31 = 1553069.380475 (paper: 2.4015e1553069)  [stored value; rerun with c31 to recompute]
+
+-- Lemma 2.9: W(t-1) < t^(0.96/log log t), 3 <= t <= 10^6
+   holds for all t in the range: True
+
+-- Theorem 5.1(i)(a), k=4: the paper's inequality q^(m/2-8 floor(m/24)+3) >= C_11 q^(m/11) 2^m
+   m=210: holds iff q >= 1333.9
+   m=330: holds iff q >= 2249.0
+   m=390: holds iff q >= 6636.0
+   m=420: holds iff q >= 4304.0
+   m=462: holds iff q >= 6959.7
+   m=510: holds iff q >= 7136.9
+   m -> infinity: q >= 9410.1; among the 343 values 210<=m<5000 with omega(m)>=4 the inequality fails at q=1334 for 342
+
+-- Theorem 5.1(i)(b)-(d): the paper's inequality with nu in 3..14
+   k=5, q=9, m>=2310: nu for which it holds at m0 with positive slope: [11, 12, 13, 14]
+   k=5, q=8, m>=2310: nu for which it holds at m0 with positive slope: []
+   k=6, q=7, m>=30030: nu for which it holds at m0 with positive slope: [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+   k=6, q=5, m>=30030: nu for which it holds at m0 with positive slope: []
+   k=7, q=5, m>=510510: nu for which it holds at m0 with positive slope: [16, 17, 18]
+   k=7, q=4, m>=510510: nu for which it holds at m0 with positive slope: []
+
+-- Theorem 5.1(ii), k=3: the paper's inequality q^2 >= C_31 q^(m/31) 2^m
+   m=60: holds iff log10 q >= 24072855.36 (q >= 2.2660e24072855)
+   m=61: holds iff log10 q >= 48145720.04 (q >= 1.1026e48145720)
+   m=62: exponent 2-m/31 = 0.0000 <= 0, false for every q
+   m=66: exponent 2-m/31 = -0.1290 <= 0, false for every q
+   m=70: exponent 2-m/31 = -0.2581 <= 0, false for every q
+   triples with 60<=m<=10^5 violating D<=m/4: 0; triples with m>=70 and d_3>m/10 (contradicting the bound used): 5551, e.g. [(2, 3, 13), (2, 3, 17), (2, 3, 19)]
+
+-- k=2: exponents m/2-lambda-D (paper) and m/2-lambda (corrected), coprime pairs
+   d1=2: paper exponent >0 for d2 in []; corrected exponent >0 for d2 in []
+   d1=3: paper exponent >0 for d2 in []; corrected exponent >0 for d2 in [5, 7, 8, 10, 11, 13, 14, 16, 17, 19, 20, 22, 23, 25, 26, 28, 29]
+   d1=4: paper exponent >0 for d2 in []; corrected exponent >0 for d2 in [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29]
+   d1=5: paper exponent >0 for d2 in [19, 21, 22, 23, 24, 26, 27, 28, 29]; corrected exponent >0 for d2 in [6, 7, 8, 9, 11, 12, 13, 14, 16, 17, 18, 19, 21, 22, 23, 24, 26, 27, 28, 29]
+   d1=6: paper exponent >0 for d2 in [13, 17, 19, 23, 25, 29]; corrected exponent >0 for d2 in [7, 11, 13, 17, 19, 23, 25, 29]
+   d1=7: paper exponent >0 for d2 in [9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 20, 22, 23, 24, 25, 26, 27, 29, 30]; corrected exponent >0 for d2 in [8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 20, 22, 23, 24, 25, 26, 27, 29, 30]
+   d1=8: paper exponent >0 for d2 in [9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29]; corrected exponent >0 for d2 in [9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29]
+   d1=9: paper exponent >0 for d2 in [10, 11, 13, 14, 16, 17, 19, 20, 22, 23, 25, 26, 28, 29]; corrected exponent >0 for d2 in [10, 11, 13, 14, 16, 17, 19, 20, 22, 23, 25, 26, 28, 29]
+   (3, 4): paper -7.0, corrected 0.0; explicit corrected threshold (W(x^m-1)<=2^m, nu<=14): none with nu<=14
+   (3, 5): paper -7.5, corrected 0.5; explicit corrected threshold (W(x^m-1)<=2^m, nu<=14): none with nu<=14
+   (5, 19): paper 0.5, corrected 24.5; explicit corrected threshold (W(x^m-1)<=2^m, nu<=14): q >= 10^2.46
+   (6, 11): paper 0.0, corrected 17.0; explicit corrected threshold (W(x^m-1)<=2^m, nu<=14): q >= 10^2.64
+   (7, 8): paper -1.0, corrected 14.0; explicit corrected threshold (W(x^m-1)<=2^m, nu<=14): q >= 10^2.90
+   (7, 9): paper 0.5, corrected 16.5; explicit corrected threshold (W(x^m-1)<=2^m, nu<=14): q >= 10^2.60
+   (8, 9): paper 3.0, corrected 20.0; explicit corrected threshold (W(x^m-1)<=2^m, nu<=14): q >= 10^2.28
+
+-- corrected thresholds: q^(m/2-D+k-1) >= W(q^m-1) W(x^m-1), pairwise coprime, m = d_1...d_k
+   k=3: 181624 tuples with product<=100000; with W(x^m-1)<=2^m: all q>=8003 (worst tuple (2, 3, 5), needs q>=8002.72); with Lenstra-Schoof: failing prime powers below 8003: [2, 3, 4, 5, 7]...[7937, 7949, 7951, 7963, 7993] -> all prime powers q>=8009
+   k=4: 92412 tuples with product<=200000; with W(x^m-1)<=2^m: all q>=11 (worst tuple (2, 3, 5, 7), needs q>=10.43); with Lenstra-Schoof: failing prime powers below 11: [2, 3] -> all prime powers q>=4
+   k=5: 77887 tuples with product<=1000000; with W(x^m-1)<=2^m: all q>=6 (worst tuple (2, 3, 5, 7, 11), needs q>=5.84); with Lenstra-Schoof: failing prime powers below 6: [2, 3] -> all prime powers q>=4
+   k=6: 15961 tuples with product<=3000000; with W(x^m-1)<=2^m: all q>=6 (worst tuple (2, 3, 5, 7, 11, 13), needs q>=5.12); with Lenstra-Schoof: failing prime powers below 6: [2, 3] -> all prime powers q>=4
+   k=7: 12898 tuples with product<=30000000; with W(x^m-1)<=2^m: all q>=6 (worst tuple (2, 3, 5, 7, 11, 13, 17), needs q>=5.05); with Lenstra-Schoof: failing prime powers below 6: [2, 3] -> all prime powers q>=4

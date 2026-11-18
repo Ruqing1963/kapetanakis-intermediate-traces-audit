@@ -1,0 +1,64 @@
+{
+ "q": 5,
+ "m": 12,
+ "d": [
+  4,
+  6
+ ],
+ "Q": 25,
+ "t": [
+  2,
+  3
+ ],
+ "modulus_low_degree_first": [
+  2,
+  1,
+  1,
+  2,
+  2,
+  0,
+  4,
+  4,
+  2,
+  1,
+  1,
+  1,
+  1
+ ],
+ "factors_of_x^12-1_dividing_neither_x^4-1_nor_x^6-1": [
+  [
+   4,
+   2,
+   1
+  ],
+  [
+   4,
+   3,
+   1
+  ]
+ ],
+ "alpha_coordinates": [
+  2,
+  0,
+  1,
+  0,
+  4,
+  2,
+  3,
+  4,
+  4,
+  0,
+  3,
+  0
+ ],
+ "alpha_primitive": true,
+ "alpha_normal_over_F25": true,
+ "alpha_normal_over_F5": false,
+ "a1_in_F625": true,
+ "a2_in_F15625": true,
+ "a1_normal_over_F5": true,
+ "a2_normal_over_F5": true,
+ "a1_normal_over_F25": true,
+ "a2_normal_over_F25": true,
+ "admissible": true
+}
